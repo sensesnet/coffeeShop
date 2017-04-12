@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<ehcache>
+    <diskStore path="C:\temp\"/>
+    <defaultCache
+    maxElementsInMemory ="200"
+    eternal="false"
+    timeToIdleSeconds = "600"
+    timeToLiveSeconds = "600"
+    overflowToDisk="true"
+    diskPersistent="false"
+    diskExpiryThreadIntervalSeconds ="300"
+    memoryStoreEvictionPolicy="LRU"
+    />
+</ehcache>

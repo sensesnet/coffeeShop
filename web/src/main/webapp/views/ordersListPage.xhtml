@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:fcore="http://java.sun.com/jsf/core">
+<f:view>
+    <h:head><title>Order list Page</title></h:head>
+    <h:body>
+        <h:form>
+            <p:panel header="Coffee Shop" style="text-align: center">
+                <h:form>
+                    <p:dataTable var="list" value="#{ordersListBean.getAllOrdersList}" border="1" cellpadding="2" cellspacing="2">
+                        <p:column>
+                            <fcore:facet name="header">id</fcore:facet>
+                            <h:outputText value="#{list.id}"/>
+                        </p:column>
+                        <p:column>
+                            <fcore:facet name="header">Coffee type</fcore:facet>
+                            <h:outputText value="#{list.coffeeType}"/>
+                        </p:column>
+                        <p:column>
+                            <fcore:facet name="header">Quantity(gram)</fcore:facet>
+                            <h:outputText value="#{list.quantity}"/>
+                        </p:column>
+                        <p:column>
+                            <fcore:facet name="header">Address</fcore:facet>
+                            <h:outputText value="#{list.address}"/>
+                        </p:column>
+                        <p:column>
+                            <fcore:facet name="header">Delivery</fcore:facet>
+                            <h:outputText value="#{list.delivery}"/>
+                        </p:column>
+                        <p:column>
+                            <fcore:facet name="header">Delivery date</fcore:facet>
+                            <h:outputText value="#{list.deliveryDate}"/>
+                        </p:column>
+                        <p:column>
+                            <fcore:facet name="header">Total price</fcore:facet>
+                            <h:outputText value="#{list.totalPrice}"/>
+                        </p:column>
+                        <p:column>
+                            <fcore:facet name="header">Edit</fcore:facet>
+                            <p:commandButton value="Edit" style="align-self: center" action="editOrderPage">
+                            <fcore:param name="id" value="#{list.id}"/>
+                            </p:commandButton>
+                        </p:column>
+                        <p:column>
+                            <fcore:facet name="header">Delete</fcore:facet>
+                            <p:commandButton value="Delete" style="align-self: center" action="removeOrderPage" actionListener="#{ordersListBean.getById}">
+                            <fcore:param name="id" value="#{list.id}"/>
+                            </p:commandButton>
+                        </p:column>
+                    </p:dataTable>
+                </h:form>
+            </p:panel>
+        </h:form>
+    </h:body>
+</f:view>
+</html>

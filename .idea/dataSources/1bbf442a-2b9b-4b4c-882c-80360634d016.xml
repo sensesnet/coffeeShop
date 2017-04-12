@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="coffee_shop@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="coffee_shop">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="accounts"/>
+    <schema id="4" parent="1" name="alfa_bank"/>
+    <schema id="5" parent="1" name="custdb"/>
+    <schema id="6" parent="1" name="devcolibri"/>
+    <schema id="7" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="key"/>
+    <schema id="9" parent="1" name="many-to-many"/>
+    <schema id="10" parent="1" name="manytoone"/>
+    <schema id="11" parent="1" name="mvc_person"/>
+    <schema id="12" parent="1" name="mysql"/>
+    <schema id="13" parent="1" name="onetoone"/>
+    <schema id="14" parent="1" name="performance_schema"/>
+    <schema id="15" parent="1" name="record"/>
+    <schema id="16" parent="1" name="rest"/>
+    <schema id="17" parent="1" name="restaurant"/>
+    <schema id="18" parent="1" name="rest_hibernate"/>
+    <schema id="19" parent="1" name="rest_spring_hibernate"/>
+    <schema id="20" parent="1" name="security_demo"/>
+    <schema id="21" parent="1" name="sys"/>
+    <schema id="22" parent="1" name="task_manager"/>
+    <schema id="23" parent="1" name="test_epam"/>
+    <schema id="24" parent="1" name="webinar_library"/>
+    <table id="25" parent="2" name="coffee_type"/>
+    <table id="26" parent="2" name="hibernate_sequence"/>
+    <table id="27" parent="2" name="order_coffee_list"/>
+    <column id="28" parent="25" name="coffee_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="29" parent="25" name="coast_per_100g">
+      <Position>2</Position>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="25" name="coffee_Name">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="31" parent="25" name="UK_m5y91jeb7qbl61ktr2r7q9l6o">
+      <ColNames>coffee_Name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="32" parent="25" name="PRIMARY">
+      <ColNames>coffee_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="33" parent="25" name="UK_m5y91jeb7qbl61ktr2r7q9l6o">
+      <ColNames>coffee_Name</ColNames>
+      <UnderlyingIndexName>UK_m5y91jeb7qbl61ktr2r7q9l6o</UnderlyingIndexName>
+    </key>
+    <column id="34" parent="26" name="next_val">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="35" parent="27" name="order_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="36" parent="27" name="address">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="27" name="delivery">
+      <Position>3</Position>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="27" name="delivery_date">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="39" parent="27" name="quantity">
+      <Position>5</Position>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="27" name="total_price">
+      <Position>6</Position>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="27" name="coffee_Name">
+      <Position>7</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <index id="42" parent="27" name="FK_phhtclmbok53c6pjc09e0blcb">
+      <ColNames>coffee_Name</ColNames>
+    </index>
+    <index id="43" parent="27" name="UK_3hucckb4u3uwcty9obf6x4uxe">
+      <ColNames>address</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="44" parent="27" name="PRIMARY">
+      <ColNames>order_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="45" parent="27" name="UK_3hucckb4u3uwcty9obf6x4uxe">
+      <ColNames>address</ColNames>
+      <UnderlyingIndexName>UK_3hucckb4u3uwcty9obf6x4uxe</UnderlyingIndexName>
+    </key>
+    <foreign-key id="46" parent="27" name="FK_phhtclmbok53c6pjc09e0blcb">
+      <ColNames>coffee_Name</ColNames>
+      <RefSchemaName>coffee_shop</RefSchemaName>
+      <RefTableName>coffee_type</RefTableName>
+      <RefColNames>coffee_id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

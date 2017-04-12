@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+    http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+
+
+    <navigation-rule>
+        <from-view-id>*</from-view-id>
+        <navigation-case>
+            <from-outcome>indexPage</from-outcome>
+            <to-view-id>/index.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>newOrderPage</from-outcome>
+            <to-view-id>/views/newOrderPage.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>ordersListPage</from-outcome>
+            <to-view-id>/views/ordersListPage.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>editOrderPage</from-outcome>
+            <to-view-id>/views/editOrderPage.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>removeOrderPage</from-outcome>
+            <to-view-id>/views/removeOrderPage.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+</faces-config>

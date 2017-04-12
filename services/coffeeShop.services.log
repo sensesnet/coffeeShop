@@ -1,0 +1,359 @@
+2017-04-05 00:07:30,839 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-05 00:07:30,849 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-05 00:07:30,851 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-05 00:07:30,853 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-05 00:07:30,879 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-05 00:07:30,879 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-05 00:07:31,923 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-05 00:07:32,050 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-05 00:07:32,077 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-05 00:07:32,077 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-05 00:07:32,077 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-05 00:07:32,079 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-05 00:07:34,557 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-05 00:07:34,781 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-05 00:07:34,786 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-05 00:07:35,199 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-05 00:07:35,205 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-05 00:07:35,255 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-05 00:07:35,255 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-05 00:07:35,601 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-05 00:07:36,768 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-05 00:07:42,252 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-05 00:07:42,588 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-05 00:07:42,651 INFO  OrderListService:34 -  - New OrderList object was add: OrderList@1aeca0b
+2017-04-05 00:36:56,633 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-05 00:36:56,641 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-05 00:36:56,643 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-05 00:36:56,645 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-05 00:36:56,665 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-05 00:36:56,665 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-05 00:36:57,380 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-05 00:36:57,465 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-05 00:36:57,471 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-05 00:36:57,471 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-05 00:36:57,471 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-05 00:36:57,473 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-05 00:36:57,827 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-05 00:36:57,982 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-05 00:36:57,986 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-05 00:36:58,156 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-05 00:36:58,159 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-05 00:36:58,182 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-05 00:36:58,182 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-05 00:36:58,421 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-05 00:36:59,530 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-05 00:37:00,570 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-05 00:37:00,677 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-05 00:37:00,738 INFO  OrderListService:34 -  - New OrderList object was add: OrderList@13ba765
+2017-04-05 01:07:02,786 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-05 01:07:02,794 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-05 01:07:02,795 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-05 01:07:02,796 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-05 01:07:02,816 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-05 01:07:02,816 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-05 01:07:03,647 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-05 01:07:03,742 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-05 01:07:03,747 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-05 01:07:03,748 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-05 01:07:03,748 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-05 01:07:03,749 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-05 01:07:04,078 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-05 01:07:04,219 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-05 01:07:04,224 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-05 01:07:04,396 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-05 01:07:04,399 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-05 01:07:04,419 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-05 01:07:04,420 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-05 01:07:04,648 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-05 01:07:05,862 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-05 01:07:06,417 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-05 01:07:06,527 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-05 01:07:06,556 INFO  OrderListService:34 -  - New OrderList object was add: OrderList@151c8c3
+2017-04-05 19:10:35,313 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-05 19:10:35,331 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-05 19:10:35,333 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-05 19:10:35,334 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-05 19:10:35,352 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-05 19:10:35,352 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-05 19:10:36,147 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-05 19:10:36,233 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-05 19:10:36,238 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-05 19:10:36,239 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-05 19:10:36,239 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-05 19:10:36,240 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-05 19:10:36,467 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-05 19:10:36,607 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-05 19:10:36,611 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-05 19:10:36,778 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-05 19:10:36,781 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-05 19:10:36,800 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-05 19:10:36,801 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-05 19:10:37,020 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-05 19:10:38,430 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-05 19:10:38,529 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-05 19:10:38,551 INFO  OrderListService:34 -  - New OrderList object was add: sensesnet.coffeeShop.entity.OrderList@182f8ae
+2017-04-05 19:11:16,540 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-05 19:11:16,549 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-05 19:11:16,551 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-05 19:11:16,552 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-05 19:11:16,569 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-05 19:11:16,570 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-05 19:11:17,273 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-05 19:11:17,347 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-05 19:11:17,352 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-05 19:11:17,352 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-05 19:11:17,352 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-05 19:11:17,354 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-05 19:11:17,584 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-05 19:11:17,721 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-05 19:11:17,725 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-05 19:11:17,889 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-05 19:11:17,891 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-05 19:11:17,911 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-05 19:11:17,911 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-05 19:11:18,128 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-05 19:11:19,251 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-05 19:11:19,546 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-05 19:11:19,650 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-05 19:11:19,676 INFO  OrderListService:34 -  - New OrderList object was add: sensesnet.coffeeShop.entity.OrderList@182f8ae
+2017-04-05 19:11:59,118 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-05 19:11:59,127 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-05 19:11:59,129 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-05 19:11:59,130 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-05 19:11:59,148 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-05 19:11:59,148 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-05 19:11:59,844 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-05 19:11:59,917 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-05 19:11:59,922 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-05 19:11:59,923 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-05 19:11:59,923 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-05 19:11:59,924 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-05 19:12:00,172 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-05 19:12:00,312 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-05 19:12:00,316 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-05 19:12:00,478 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-05 19:12:00,480 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-05 19:12:00,499 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-05 19:12:00,500 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-05 19:12:00,720 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-05 19:12:01,894 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-05 19:12:02,237 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-05 19:12:02,365 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-05 19:12:02,397 INFO  OrderListService:34 -  - New OrderList object was add: sensesnet.coffeeShop.entity.OrderList@182f8ae
+2017-04-05 19:13:21,448 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-05 19:13:21,458 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-05 19:13:21,460 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-05 19:13:21,461 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-05 19:13:21,478 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-05 19:13:21,478 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-05 19:13:22,180 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-05 19:13:22,263 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-05 19:13:22,268 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-05 19:13:22,269 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-05 19:13:22,269 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-05 19:13:22,270 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-05 19:13:22,509 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-05 19:13:22,650 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-05 19:13:22,654 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-05 19:13:22,816 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-05 19:13:22,819 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-05 19:13:22,838 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-05 19:13:22,839 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-05 19:13:23,055 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-05 19:13:24,378 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-05 19:13:24,412 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-05 19:13:24,508 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-05 19:13:24,528 INFO  OrderListService:34 -  - New OrderList object was add: sensesnet.coffeeShop.entity.OrderList@182f8ae
+2017-04-05 21:58:35,647 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-05 21:58:35,673 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-05 21:58:35,675 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-05 21:58:35,676 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-05 21:58:35,695 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-05 21:58:35,695 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-05 21:58:36,385 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-05 21:58:36,459 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-05 21:58:36,464 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-05 21:58:36,465 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-05 21:58:36,465 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-05 21:58:36,466 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-05 21:58:36,902 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-05 21:58:37,051 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-05 21:58:37,055 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-05 21:58:37,224 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-05 21:58:37,226 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-05 21:58:37,246 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-05 21:58:37,247 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-05 21:58:37,467 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-05 21:58:38,650 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-05 21:58:39,054 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-05 21:58:39,165 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-05 21:58:39,207 INFO  OrderListService:34 -  - New OrderList object was add: sensesnet.coffeeShop.entity.OrderList@182f8ae
+2017-04-06 11:33:40,988 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-06 11:33:41,009 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-06 11:33:41,011 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-06 11:33:41,012 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-06 11:33:41,030 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-06 11:33:41,030 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-06 11:33:41,723 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-06 11:33:41,796 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-06 11:33:41,801 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-06 11:33:41,802 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-06 11:33:41,802 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-06 11:33:41,803 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-06 11:33:42,069 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-06 11:33:42,208 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-06 11:33:42,212 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-06 11:33:42,375 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-06 11:33:42,377 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-06 11:33:42,397 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-06 11:33:42,397 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-06 11:33:42,617 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-06 11:33:43,735 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-06 11:33:45,001 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-06 11:33:45,097 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-06 11:33:45,133 INFO  OrderListService:34 -  - New OrderList object was add: sensesnet.coffeeShop.entity.OrderList@182f8ae
+2017-04-06 11:48:42,635 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-06 11:48:42,645 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-06 11:48:42,646 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-06 11:48:42,648 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-06 11:48:42,665 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-06 11:48:42,666 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-06 11:48:43,346 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-06 11:48:43,420 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-06 11:48:43,425 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-06 11:48:43,425 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-06 11:48:43,425 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-06 11:48:43,427 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-06 11:48:43,728 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-06 11:48:43,868 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-06 11:48:43,872 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-06 11:48:44,034 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-06 11:48:44,037 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-06 11:48:44,056 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-06 11:48:44,057 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-06 11:48:44,277 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-06 11:48:45,473 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-06 11:48:46,424 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-06 11:48:46,565 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-06 11:48:46,619 INFO  OrderListService:34 -  - New OrderList object was add: sensesnet.coffeeShop.entity.OrderList@182f8ae
+2017-04-06 12:06:35,526 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-06 12:06:35,526 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-06 12:06:35,536 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-06 12:06:35,536 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-06 12:06:35,556 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-06 12:06:35,556 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-06 12:06:36,226 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-06 12:06:36,306 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-06 12:06:36,306 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-06 12:06:36,306 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-06 12:06:36,306 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-06 12:06:36,306 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-06 12:06:36,736 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-06 12:06:36,876 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-06 12:06:36,876 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-06 12:06:37,036 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-06 12:06:37,046 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-06 12:06:37,056 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-06 12:06:37,066 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-06 12:06:37,278 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-06 12:06:38,463 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-06 12:06:38,881 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-06 12:06:38,991 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-06 12:06:39,041 INFO  OrderListService:34 -  - New OrderList object was add: sensesnet.coffeeShop.entity.OrderList@182f8ae
+2017-04-06 12:11:41,988 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-06 12:11:41,997 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-06 12:11:41,998 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-06 12:11:42,000 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-06 12:11:42,018 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-06 12:11:42,018 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-06 12:11:42,717 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-06 12:11:42,791 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-06 12:11:42,796 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-06 12:11:42,797 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-06 12:11:42,797 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-06 12:11:42,798 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-06 12:11:43,032 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-06 12:11:43,173 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-06 12:11:43,177 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-06 12:11:43,347 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-06 12:11:43,350 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-06 12:11:43,369 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-06 12:11:43,370 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-06 12:11:43,611 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-06 12:11:44,794 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-06 12:11:44,961 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-06 12:11:45,078 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-06 12:11:45,111 INFO  OrderListService:34 -  - New OrderList object was add: sensesnet.coffeeShop.entity.OrderList@182f8ae
+2017-04-06 12:40:13,846 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-06 12:40:13,856 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-06 12:40:13,856 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-06 12:40:13,856 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-06 12:40:13,876 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-06 12:40:13,876 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-06 12:40:14,576 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-06 12:40:14,646 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-06 12:40:14,656 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-06 12:40:14,656 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-06 12:40:14,656 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-06 12:40:14,656 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-06 12:40:14,904 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-06 12:40:15,044 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-06 12:40:15,044 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-06 12:40:15,204 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-06 12:40:15,204 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-06 12:40:15,224 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-06 12:40:15,224 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-06 12:40:15,445 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-06 12:40:16,649 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-06 12:40:17,294 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-06 12:40:17,384 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-06 12:40:17,434 INFO  OrderListService:34 -  - New OrderList object was add: sensesnet.coffeeShop.entity.OrderList@182f8ae
+2017-04-06 17:34:00,468 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-06 17:34:00,477 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-06 17:34:00,479 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-06 17:34:00,480 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-06 17:34:00,498 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-06 17:34:00,498 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-06 17:34:01,198 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-06 17:34:01,304 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-06 17:34:01,310 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-06 17:34:01,310 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-06 17:34:01,310 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-06 17:34:01,311 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-06 17:34:01,976 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-06 17:34:02,116 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-06 17:34:02,120 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-06 17:34:02,285 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-06 17:34:02,288 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-06 17:34:02,308 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-06 17:34:02,308 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-06 17:34:02,530 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-06 17:34:03,703 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-06 17:34:04,111 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-06 17:34:04,209 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-06 17:34:04,237 INFO  OrderListService:34 -  - New OrderList object was add: sensesnet.coffeeShop.entity.OrderList@182f8ae
+2017-04-09 02:53:12,456 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-09 02:53:12,476 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-09 02:53:12,476 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-09 02:53:12,476 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-09 02:53:12,496 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-09 02:53:12,496 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-09 02:53:13,164 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-09 02:53:13,236 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-09 02:53:13,246 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-09 02:53:13,246 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-09 02:53:13,246 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-09 02:53:13,246 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-09 02:53:13,476 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-09 02:53:13,626 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-09 02:53:13,626 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-09 02:53:13,797 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-09 02:53:13,807 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-09 02:53:13,827 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-09 02:53:13,827 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-09 02:53:14,057 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-09 02:53:15,165 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2017-04-09 02:53:15,356 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-09 02:53:15,456 INFO  CoffeeTypeService:35 -  - New CoffeeType object was add: CoffeeType{id=1, coffeeName='Chibo_Brasil_US', coastPerHundredGrams=45.6, orderedCoffee=null}
+2017-04-09 02:53:15,496 INFO  OrderListService:34 -  - New OrderList object was add: sensesnet.coffeeShop.entity.OrderList@13ba765

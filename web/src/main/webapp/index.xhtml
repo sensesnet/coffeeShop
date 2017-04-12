@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+<f:view>
+    <h:head>
+        <title>COFFEE shop</title>
+    </h:head>
+    <h:body>
+        <br/>
+        <h:form>
+            <p:panel header="Coffee Shop" style="text-align: center">
+                <br/>
+                <div style="width:50%;height:100%;overflow:auto;float:left">
+                    <p:commandButton value="New coffee order" style="align-self: center" action="newOrderPage"/>
+                </div>
+                <div style="width: 50%;height:100%;overflow:auto;float:right">
+                    <p:commandButton value="GO to orders list" style="align-self: center" action="ordersListPage"/>
+                </div>
+                <br/>
+                <br/>
+            </p:panel>
+        </h:form>
+    </h:body>
+</f:view>
+
+</html>

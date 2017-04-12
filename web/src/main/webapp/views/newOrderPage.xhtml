@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+<f:view>
+    <h:head><title>Second Page Title</title></h:head>
+    <h:outputLabel value="New coffee order"/>
+
+    <h:body>
+        <p:panel header="Coffee Shop" style="text-align: center">
+            <h:form>
+                <h:panelGrid border="0" cellpadding="2" cellspacing="2" columns="2">
+                    <h:outputText value="Coffee type"/>
+                    <p:autoComplete value="#{coffeeTypeBean.coffeeName}" completeMethod="#{coffeeTypeBean.complete()}"
+                                    dropdown="true" required="true" requiredMessage="Coffee type is requared!"/>
+                    <h:outputText value="Quantity (gram)"/>
+
+                    <!--<h:messages infoStyle="color:blue" warnStyle="color:orange"-->
+                    <!--errorStyle="color:red"/>-->
+                    <!--<h:form id="coffeeForm">-->
+                    <!--<h:inputText id="quantity" value="#{ordersListBean.quantity}"/>-->
+                    <!--<h:message for="quantity"/>-->
+                    <!--</h:form>-->
+                    <p:inputText value="#{ordersListBean.quantity}" required="true"
+                                 requiredMessage="Quantity is requared!" maxlength="7"
+                                 validator="sensesnet.coffeeShop.Quantity"/>
+                    <h:outputText value="Do you need delivery?"/>
+                    <h:selectOneRadio value="#{ordersListBean.delivery}">
+                        <f:selectItem itemValue="true" itemLabel="Yes"/>
+                        <f:selectItem itemValue="false" itemLabel="No"/>
+                    </h:selectOneRadio>
+
+                    <h:outputText value="Address"/>
+                    <p:inputText value="#{ordersListBean.address}" placeholder=" street home flat" required="true"
+                                 requiredMessage="Address is requared!"/>
+
+                    <h:outputText value="Delivery date"/>
+                    <p:inputText value="#{ordersListBean.deliveryDate}"/>
+
+                    <h:outputText value="Total price"/>
+                    <p:inputText value="#{ordersListBean.totalPrice}"/>
+
+                    
+
+                </h:panelGrid>
+                <p:commandButton value="Add new order" style="align-self: center" action="indexPage"
+                                 actionListener="#{ordersListBean.add}">
+                    <f:param name="coffeeName" value="#{coffeeTypeBean.coffeeName}"/>
+                    <f:param name="quantity" value="#{ordersListBean.quantity}"/>
+                    <f:param name="delivery" value="#{ordersListBean.delivery}"/>
+                    <f:param name="address" value="#{ordersListBean.address}"/>
+                    <f:param name="deliveryDate" value="#{ordersListBean.deliveryDate}"/>
+                    <f:param name="totalPrice" value="#{ordersListBean.totalPrice}"/>
+                </p:commandButton>
+            </h:form>
+        </p:panel>
+    </h:body>
+
+</f:view>
+</html>

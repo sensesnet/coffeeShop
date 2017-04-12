@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://xmlns.jcp.org/jsf/html">
+
+<f:view>
+    <h:head><title>Second Page Title</title></h:head>
+
+    <h:body>
+        <p:panel header="Coffee Shop" style="text-align: center">
+            <h:form>
+                <h:panelGrid border="0" cellpadding="2" cellspacing="2" columns="2">
+                    <h:outputText value="Id:"/>
+                    <h:outputText value="#{ordersListBean.id}"/>
+                    <h:outputText value="Coffee type:"/>
+                    <h:outputText value="#{ordersListBean.coffeeType}"/>
+                    <h:outputText value="Quantity:"/>
+                    <h:outputText value="#{ordersListBean.quantity}"/>
+                    <h:outputText value="Delivery:"/>
+                    <h:outputText value="#{ordersListBean.delivery}"/>
+                    <h:outputText value="Delivery date:"/>
+                    <h:outputText value="#{ordersListBean.deliveryDate}"/>
+                    <h:outputText value="Address:"/>
+                    <h:outputText value="#{ordersListBean.address}"/>
+                    <h:outputText value="Total price:"/>
+                    <h:outputText value="#{ordersListBean.totalPrice}"/>
+                </h:panelGrid>
+                <p:commandButton value="Remove order" style="align-self: center" action="ordersListPage" actionListener="#{ordersListBean.delete}">
+                <f:param name="id" value="#{ordersListBean.id}"/>
+                </p:commandButton>
+            </h:form>
+        </p:panel>
+    </h:body>
+</f:view>
+</html>
+
+
+
+
+
