@@ -1586,3 +1586,169 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'cof
 2017-04-12 01:42:41,557 INFO  UpdateChecker:98 - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
 2017-04-12 01:42:42,186 INFO  SchemaExport:406 - HHH000230: Schema export complete
 2017-04-12 01:42:42,363 INFO  BaseDaoTest:72 - Dao test ended!
+2017-04-13 08:38:23,525 INFO  BaseDaoTest:22 - Dao test started!
+2017-04-13 08:38:23,756 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-13 08:38:23,765 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-13 08:38:23,769 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-13 08:38:23,772 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-13 08:38:23,807 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-13 08:38:23,807 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-13 08:38:25,034 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-13 08:38:25,187 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-13 08:38:25,196 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-13 08:38:25,197 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-13 08:38:25,198 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-13 08:38:25,200 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-13 08:43:00,801 INFO  BaseDaoTest:22 - Dao test started!
+2017-04-13 08:43:01,023 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-13 08:43:01,030 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-13 08:43:01,032 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-13 08:43:01,034 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-13 08:43:01,056 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-13 08:43:01,057 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-13 08:43:02,301 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-13 08:43:02,454 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-13 08:43:02,463 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-13 08:43:02,465 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-13 08:43:02,465 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-13 08:43:02,468 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-13 08:57:38,547 INFO  BaseDaoTest:22 - Dao test started!
+2017-04-13 08:57:38,763 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-13 08:57:38,773 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-13 08:57:38,777 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-13 08:57:38,780 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-13 08:57:38,808 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-13 08:57:38,809 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-13 08:57:39,942 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-13 08:57:40,078 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-13 08:57:40,086 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-13 08:57:40,087 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-13 08:57:40,088 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-13 08:57:40,091 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-13 08:57:40,453 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-13 08:57:40,733 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-13 08:57:40,741 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-13 08:57:41,183 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-13 08:57:41,186 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-13 08:57:41,222 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-13 08:57:41,223 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-13 08:57:41,650 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-13 08:57:41,678 ERROR SchemaExport:426 - HHH000389: Unsuccessful: alter table ORDER_COFFEE_LIST drop foreign key FK_phhtclmbok53c6pjc09e0blcb
+2017-04-13 08:57:41,679 ERROR SchemaExport:427 - Table 'coffee_shop.order_coffee_list' doesn't exist
+2017-04-13 08:57:41,972 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-13 08:57:42,263 INFO  BaseDaoTest:72 - Dao test ended!
+2017-04-13 08:58:31,261 INFO  BaseDaoTest:22 - Dao test started!
+2017-04-13 08:58:31,449 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-13 08:58:31,457 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-13 08:58:31,459 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-13 08:58:31,462 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-13 08:58:31,488 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-13 08:58:31,488 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-13 08:58:32,270 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-13 08:58:32,417 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-13 08:58:32,429 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-13 08:58:32,430 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-13 08:58:32,431 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-13 08:58:32,434 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-13 08:58:32,793 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-13 08:58:33,055 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-13 08:58:33,064 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-13 08:58:33,467 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-13 08:58:33,471 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-13 08:58:33,498 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-13 08:58:33,500 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-13 08:58:33,823 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-13 08:58:34,005 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-13 08:58:34,258 INFO  BaseDaoTest:72 - Dao test ended!
+2017-04-13 09:04:33,893 INFO  BaseDaoTest:22 - Dao test started!
+2017-04-13 09:04:34,079 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-13 09:04:34,087 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-13 09:04:34,090 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-13 09:04:34,093 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-13 09:04:34,117 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-13 09:04:34,118 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-13 09:04:35,301 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-13 09:04:35,441 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-13 09:04:35,452 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-13 09:04:35,453 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-13 09:04:35,454 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-13 09:04:35,457 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-13 09:04:35,811 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-13 09:04:36,046 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-13 09:04:36,055 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-13 09:04:36,451 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-13 09:04:36,454 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-13 09:04:36,480 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-13 09:04:36,481 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-13 09:04:36,811 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-13 09:04:37,200 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-13 09:04:37,435 INFO  BaseDaoTest:72 - Dao test ended!
+2017-04-13 09:08:35,045 INFO  BaseDaoTest:22 - Dao test started!
+2017-04-13 09:08:35,221 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-13 09:08:35,228 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-13 09:08:35,231 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-13 09:08:35,233 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-13 09:08:35,258 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-13 09:08:35,259 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-13 09:08:36,322 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-13 09:08:36,458 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-13 09:08:36,467 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-13 09:08:36,469 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-13 09:08:36,469 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-13 09:08:36,472 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-13 09:08:36,836 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-13 09:08:37,073 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-13 09:08:37,078 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-13 09:08:37,496 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-13 09:08:37,500 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-13 09:08:37,528 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-13 09:08:37,529 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-13 09:08:37,846 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-13 09:08:38,043 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-13 09:08:38,366 INFO  BaseDaoTest:72 - Dao test ended!
+2017-04-13 09:52:08,126 INFO  BaseDaoTest:22 - Dao test started!
+2017-04-13 09:52:08,415 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-13 09:52:08,427 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-13 09:52:08,431 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-13 09:52:08,434 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-13 09:52:08,481 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-13 09:52:08,482 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-13 09:52:09,430 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-13 09:52:09,697 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-13 09:52:09,756 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-13 09:52:09,758 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-13 09:52:09,758 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-13 09:52:09,762 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-13 09:52:10,150 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-13 09:52:10,535 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-13 09:52:10,548 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-13 09:52:10,966 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-13 09:52:10,969 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-13 09:52:10,997 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-13 09:52:10,998 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-13 09:52:11,380 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-13 09:52:11,692 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-13 09:52:11,952 INFO  BaseDaoTest:72 - Dao test ended!
+2017-04-13 10:34:30,826 INFO  BaseDaoTest:22 - Dao test started!
+2017-04-13 10:34:31,194 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-04-13 10:34:31,207 INFO  Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+2017-04-13 10:34:31,211 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-13 10:34:31,215 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-04-13 10:34:31,261 INFO  Configuration:2075 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-04-13 10:34:31,262 INFO  Configuration:2094 - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-04-13 10:34:32,122 INFO  Configuration:2216 - HHH000041: Configured SessionFactory: null
+2017-04-13 10:34:32,418 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-04-13 10:34:32,450 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/coffee_shop]
+2017-04-13 10:34:32,451 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=root, password=****}
+2017-04-13 10:34:32,452 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-04-13 10:34:32,455 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 10 (min=1)
+2017-04-13 10:34:32,946 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-04-13 10:34:33,258 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-04-13 10:34:33,268 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-13 10:34:33,992 INFO  UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2017-04-13 10:34:33,995 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2017-04-13 10:34:34,026 INFO  StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2017-04-13 10:34:34,027 WARN  AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2017-04-13 10:34:34,433 INFO  SchemaExport:344 - HHH000227: Running hbm2ddl schema export
+2017-04-13 10:34:34,639 INFO  SchemaExport:406 - HHH000230: Schema export complete
+2017-04-13 10:34:34,924 INFO  BaseDaoTest:72 - Dao test ended!

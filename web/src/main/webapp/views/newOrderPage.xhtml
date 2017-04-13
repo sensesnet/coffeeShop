@@ -20,13 +20,6 @@
                     <p:autoComplete value="#{coffeeTypeBean.coffeeName}" completeMethod="#{coffeeTypeBean.complete()}"
                                     dropdown="true" required="true" requiredMessage="Coffee type is requared!"/>
                     <h:outputText value="Quantity (gram)"/>
-
-                    <!--<h:messages infoStyle="color:blue" warnStyle="color:orange"-->
-                    <!--errorStyle="color:red"/>-->
-                    <!--<h:form id="coffeeForm">-->
-                    <!--<h:inputText id="quantity" value="#{ordersListBean.quantity}"/>-->
-                    <!--<h:message for="quantity"/>-->
-                    <!--</h:form>-->
                     <p:inputText value="#{ordersListBean.quantity}" required="true"
                                  requiredMessage="Quantity is requared!" maxlength="7"
                                  validator="sensesnet.coffeeShop.Quantity"/>
